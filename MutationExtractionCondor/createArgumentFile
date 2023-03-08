@@ -1,4 +1,0 @@
-#Create input file for condor
-with open("species_arguments.txt", "w") as f:
-    for i in range(len(alignment_species)):
-        f.write(f"{';'.join(scientific_species[i]).replace(' ', '_')},{';'.join(alignment_species[i])}\n")
