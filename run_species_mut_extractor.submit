@@ -1,8 +1,0 @@
-Universe = vanilla
-Executable = run_species_mut_extractor.sh
-Arguments   = $(scientific_names) $(alignment_names)
-Output = species_mut_extractor.out
-Error = species_mut_extractor.error
-Log = species_mut_extractor.log
-RequestCpus = 4
-Queue scientific_names,alignment_names from species_arguments.txt
