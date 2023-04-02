@@ -1,0 +1,7 @@
+from SigProfilerExtractor import sigpro as sig
+import os
+
+file_name = "test_species_mutations.SBS96.txt"
+
+path = os.path.join(os.getcwd(), file_name)
+sig.sigProfilerExtractor('matrix', 'final_signature_extraction(normalized)', path, context_type = "96", maximum_signatures=12)
